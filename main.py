@@ -2,6 +2,7 @@ import smtplib
 import pandas as pd
 import datetime as dt
 import random
+import os
 fromemail='haribaskarvengatasamy@gmail.com'
 frompassword='eimxublqvntwstsd'
 # the above is the app password, not google password
