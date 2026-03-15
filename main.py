@@ -3,8 +3,9 @@ import pandas as pd
 import datetime as dt
 import random
 import os
-fromemail='haribaskarvengatasamy@gmail.com'
-frompassword='eimxublqvntwstsd'
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
+
 # the above is the app password, not google password
 # This should be in the security settings of the account
 df=pd.read_csv('birthdays.csv')
